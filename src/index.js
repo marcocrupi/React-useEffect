@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import PageTitle from './component/effecthook';
+import Counter from "./component/cleaneffect";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <PageTitle />
+    <Counter />
   </React.StrictMode>
 );
 
