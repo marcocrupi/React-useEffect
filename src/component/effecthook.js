@@ -9,6 +9,7 @@ export default function PageTitle() {
 
   return (
     <div>
+      <h1>Lezione: Function Component Effects</h1>
       <p>Use the input field below to rename this page!</p>
       <input
         onChange={({ target }) => setName(target.value)}
